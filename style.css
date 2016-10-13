@@ -7,18 +7,20 @@
   .mainTable .header {
     background-color: grey;
     border: 1px solid lightgrey;
-    height: 50px;
+    height: 60px;
     color: white;
     padding-left: 20px;
-    padding-top: 15px;
-    transition: background 2.0s ease; }
+    padding-top: 22px;
+    transition: background 1.5s ease; }
   .mainTable .header:hover {
     background: lightgrey; }
   .mainTable .detail {
-    height: 175px;
+    max-height: 0px;
     border: 1px solid lightgrey;
-    padding: 20px;
-    color: grey; }
-
-.detailRemove {
-  display: none; }
+    overflow: hidden;
+    color: grey;
+    font-size: 14px;
+    transition: max-height 1.0s ease; }
+  .mainTable .detailShow {
+    max-height: 180px;
+    padding: 10px; }
