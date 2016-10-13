@@ -1,4 +1,6 @@
-#jQuery and CSS Transitions were added to our library of coding knowledge and implemented them the accordion exercise. Here are some highlights of the topic we went over today.
+#jQuery and CSS Transitions
+
+##New concepts were added to our library of coding knowledge and were implemented on the accordion exercise. Here are some highlights of the topic we went over today.
 
 1. jQuery
   * a JavaScript library that enhances the functions we can write on JavaScript
