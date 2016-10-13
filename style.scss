@@ -1,0 +1,33 @@
+* {
+    box-sizing: border-box;
+}
+
+.mainTable {
+    margin: 30px auto;
+    max-width: 500px;
+
+    .header {
+      background-color: grey;
+      border: 1px solid lightgrey;
+      height: 50px;
+      color: white;
+      padding-left: 20px;
+      padding-top: 15px;
+      transition: background 2.0s ease;
+    }
+
+    .header:hover {
+      background: lightgrey;
+    }
+
+    .detail {
+      height: 175px;
+      border: 1px solid lightgrey;
+      padding: 20px;
+      color: grey;
+    }
+}
+
+.detailRemove {
+  display: none;
+}
