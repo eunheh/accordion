@@ -10,3 +10,6 @@
 
 2. CSS Transitions
   * a way to control animation speed when changing CSS properties
+
+Following is a link to the accordion page:
+[Accordion](https://eunheh.github.io/accordion/)
